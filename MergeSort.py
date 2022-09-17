@@ -7,12 +7,22 @@ def main():
     list = words_list()
     merge_sort(list)
     print(list)
+    list = nums_list()
+    merge_sort(list)
+    print(list)
     
 #generates a list of random words using the randomwords package by Vaibhav Singh
 def words_list():
     list = []
     list = r.get_random_words()
     return list;
+
+#create a random list of nums using numpy
+def nums_list():
+    list = []
+    for i in range(0, 99):
+        list.append(np.random.randint(0, high=100, size=None, dtype=int))
+    return list
 
 #simple mergesort algorithm. 
 def merge_sort(list):

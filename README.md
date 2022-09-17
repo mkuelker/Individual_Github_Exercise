@@ -11,3 +11,6 @@ This will work for both numbers and strings in Python. That is because Python is
 
 ### words_list()
 Creates a random list of words using the Random-Words package by Vaibhav Singh.  
+
+### nums_list()
+Creates a random list of integers using numpy. 
