@@ -1,4 +1,4 @@
-# Induvidual_Github_Exercise
+# Individual_Github_Exercise
 
 ## Overview of Project
 This is a little naive program I wrote in order to prove that I know how to use github. This is a little silly because I'm a fourth year Compsci student and I should know this info by now, but whatever. I enjoy free marks. 
